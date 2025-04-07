@@ -7,8 +7,3 @@ def check_vowels():
 	b= print(f'\nContiene a: {"a" in name}\nContiene e: {"e" in name}\nContiene i: {"i" in name}\nContiene o: {"o" in name}\nContiene u: {"u" in name}\n')
 
     
-# Código a implementar utilizando input.
-
-
-# Para verificar este ejercicio ejecutar el comando
-# `pytest tp3_in_string_test.py` o `python tp3_in_string_test.py`
