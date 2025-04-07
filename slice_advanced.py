@@ -1,5 +1,4 @@
 def slice_advanced():
-    def slice_advanced():
 	frase = (input("> "))
 	print(f'\n{frase [4:14:2]}\n\n')
 
