@@ -1,5 +1,5 @@
 def check_vowels():
-     nombre = (input("> "))
+	nombre = (input("> "))
 	a=print (f'\nContiene a: {"a" in nombre}\nContiene e: {"e" in nombre}\nContiene i: {"i" in nombre}\nContiene o: {"o" in nombre}\nContiene u: {"u" in nombre}\n')
 
 	name1= (f'\n{(input("> "))}')
