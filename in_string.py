@@ -1,9 +1,15 @@
 def check_vowels():
-	name2= (f'\n\n{(input("> "))}')
-	print(f'\n\nContiene a: {"a" in name2}\nContiene e: {"e" in name2}\nContiene i: {"i" in name2}\nContiene o: {"o" in name2}\nContiene u: {"u" in name2}\n')
+	nombre = (input("> ").lower())
+	print(f'\n\nContiene a: {"a" in nombre}')
+	print(f'Contiene e: {"e" in nombre}')
+	print(f'Contiene i: {"i" in nombre}')
+	print(f'Contiene o: {"o" in nombre}')
+	print(f'Contiene u: {"u" in nombre}\n\n')
 
-	name1= (f'\n\n{(input("> "))}')
-	name= (name1.lower())
-	print(f'\n\nContiene a: {"a" in name}\nContiene e: {"e" in name}\nContiene i: {"i" in name}\nContiene o: {"o" in name}\nContiene u: {"u" in name}\n')
+	nombre = (input("> ").lower())
+	print(f'\n\nContiene a: {"a" in nombre}')
+	print(f'Contiene e: {"e" in nombre}')
+	print(f'Contiene i: {"i" in nombre}')
+	print(f'Contiene o: {"o" in nombre}')
+	print(f'Contiene u: {"u" in nombre}')
 
-check_vowels()
